@@ -1,0 +1,68 @@
+import pygame as pg
+
+FPS = 60
+class Windous
+    width = 640
+    height = 480
+    def get_size():
+        return (Windous.width, Windous.height)
+
+pg.init()
+screen = pg.display.set_mode((640, 480))
+clock = pg.time.Clock()
+
+class Button:
+    def __init__(self, color, x, y, width, heinght):
+        self.color = color
+        self.x = x
+        self.y = y
+        self.width = witdh
+        self.height = height
+    def draw(self):
+        print("Hello from draw()")
+    
+btn_yes = Button()
+
+runnig = True
+while True:
+    clock.tick(FPS)
+    
+    list_events = pg.event.get()
+    for events in list_events:
+        if event.type == pg.QUIT:
+            running = False
+        
+    
+    pg.display.uptade()
+    
+pg.quit()
+
+
+
+
+                                    2 File
+import pygame as pg
+
+FPS = 60
+
+pg.init()
+screen = pg.display.set_mode((640, 480))
+clock = pg.time.Clock()
+
+runnig = True
+while True:
+    clock.tick(FPS)
+    
+    list_events = pg.event.get()
+    for events in list_events:
+        if event.type == pg.QUIT:
+            running = False
+    
+    pg.display.uptade()
+    
+pg.quit()
+
+
+
+
+
